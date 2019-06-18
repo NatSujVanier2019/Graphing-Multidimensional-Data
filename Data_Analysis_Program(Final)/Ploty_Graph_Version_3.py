@@ -111,6 +111,7 @@ def Graph (option,k,k_cluster,k_centroid,pl_colorscale,color3,color2,d_cluster,c
     for m in range (0,ilen):                #Run a loop that goes for how many columns there are.
         identifier = chr(m + 65)            #Make a capital alphabet character for that axis/column. This is the same as the one we have graphed
         print (identifier, ":", titles[0][m])       #print out the letter and it's corresponding axis label/Column title.
+    print (category_legend)
     #---------------Scatter Plots------------------------------------------------
     #Underneath, We ask the user if they what 3 axis they want to see. This is an option for the user to see the relationship between three specific axis ans visually see
     #data trends. 
